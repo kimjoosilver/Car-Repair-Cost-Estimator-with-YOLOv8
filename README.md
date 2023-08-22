@@ -1,23 +1,41 @@
 
 # 파손 차량 이미지를 통한 수리비 예측
-![1](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/2c6c1a77-aaf7-4379-ac8d-2370b600306f)
+![객체인식 ppt의 사본_page-0001](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/a4ff5a74-4fb6-41a4-a14a-7c9bfd6a6f7e)
+![객체인식 ppt의 사본_page-0002](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/8006ae0e-bc7d-466b-a89f-6ef458a02a9e)
+![객체인식 ppt의 사본_page-0003](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/48c92e56-053d-4694-b664-bac140fdb023)
+![객체인식 ppt의 사본_page-0004](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/5aad5baa-6d43-40b0-ba9a-13f31cff0d53)
+![객체인식 ppt의 사본_page-0005](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/83aee20e-7a57-4214-b333-a0eb8d350eb0)
 
-
-
-프로젝트 구성원: 김도현, 김은성, 김주은, 박진성
-
-
-작성자: 김주은
-
-
-## 목차
-
-
-1. 배경
-2. 데이터 수집 및 분석
-3. 모델
-4. Inference
-5. 프로젝트를 마치며
-
-
-## 1. 배경
+![객체인식 ppt의 사본_page-0007](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/78edb7cb-9e25-4016-b942-831a23f0f94a)
+![객체인식 ppt의 사본_page-0008](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/54c7daa1-1072-4c5d-8b0e-1d794980f142)
+![객체인식 ppt의 사본_page-0009](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/48074104-b646-485e-809a-9c2dad6382bf)
+![객체인식 ppt의 사본_page-0010](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/9c9eed58-1ac5-4f6d-87cd-3e4a9e62c577)
+![객체인식 ppt의 사본_page-0011![객체인식 ppt의 사본_page-0006](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/e864c4f1-0780-4385-81f7-45a60325167e)
+](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/d9c62b51-8fd1-4408-8128-2b7cd91bbfbb)
+![객체인식 ppt의 사본_page-0012](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/d95f36bf-2e8e-44b9-aa4f-c27d7bdc7a5f)
+![객체인식 ppt의 ![객체인식 ppt의 사본_page-0006](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/b29c35bf-90e2-402f-bd9e-25403b75c82c)
+사본_page-0013](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/2e42afa5-7e8a-4364-9020-2617061480a7)
+![객체인식 ppt의 사본_page-0014](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/9dabde7a-a287-42cc-b50b-4d089973a495)
+![객체인식 ppt의 사본_page-0015](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/7381cc0e-c18d-42fd-98ad-d9c2efb15cc3)
+![객체인식 ppt의 사본_page-0016](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/97c9018e-d979-4528-a2a3-b80218d4019b)
+![객체인식 ppt의 사본_page-0017](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/307a14ca-5646-40e8-911f-bbcd03906ab0)
+![객체인식 ppt의 사본_page-0018](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/09da4d12-9e59-4d49-9263-e46f9d9156b5)
+![객체인식 ppt의 사본_page-0019](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/92a4d877-92af-4caa-b429-ff324140c71e)
+![객체인식 ppt의 사본_page-0020](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/de0137c6-77ff-4942-80c6-8d8dbd01491b)
+![객체인식 ppt의 사본_page-0021](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/86053f7f-fb13-4c07-9778-baafaae26db7)
+![객체인식 ppt의 사본_page-0022](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/2d291df0-0125-4c0c-a077-f5fde657157e)
+![객체인식 ppt의 사본_page-0023](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/a14e0d35-7966-431b-aa05-5612990f715c)
+![객체인식 ppt의 사본_page-0024](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/6b394451-6a4c-4cf9-8b58-0958095cbcb0)
+![객체인식 ppt의 사본_page-0025](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/60858c41-df68-4e62-ac97-bbf66cffc6d4)
+![객체인식 ppt의 사본_page-0026](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/fc5d93a8-ff33-4b71-8acf-7004f6426140)
+![객체인식 ppt의 사본_page-0027](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/95dd7377-04a0-495e-92d3-6d84a3a14f45)
+![객체인식 ppt의 사본_page-0028](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/0c521243-5f74-4601-8588-585feb317891)
+![객체인식 ppt의 사본_page-0029](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/d8a998c7-0908-4e2b-a045-ad3aba74f55a)
+![객체인식 ppt의 사본_page-0030](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/eb206655-a251-462e-b1cc-f5fa9f4f3883)
+![객체인식 ppt의 사본_page-0031](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/ee5fe695-9189-4882-ac3b-ae3349baef4b)
+![객체인식 ppt의 사본_page-0032](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/dd683ef6-0b34-4716-ac57-195d39a371fc)
+![객체인식 ppt의 사본_page-0033](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/65658aae-f9f4-4bce-82fc-4d593f7c2724)
+![객체인식 ppt의 사본_page-0034](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/17c588c8-bf83-42e3-9653-1a5c7635e783)
+![객체인식 ppt의 사본_page-0035](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/357ffc78-9017-40e9-b4eb-cb2a78cb7a6e)
+![객체인식 ppt의 사본_page-0036](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/77868772-3758-451e-8886-6aa32281c061)
+![객체인식 ppt의 사본_page-0037](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/985908e0-3710-4eea-8ac1-dc2c9ce89cc5)
