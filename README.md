@@ -1,5 +1,6 @@
 
 # 파손 차량 이미지를 통한 수리비 예측
+
 ![객체인식 ppt의 사본_page-0001](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/a4ff5a74-4fb6-41a4-a14a-7c9bfd6a6f7e)
 ![객체인식 ppt의 사본_page-0002](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/8006ae0e-bc7d-466b-a89f-6ef458a02a9e)
 ![객체인식 ppt의 사본_page-0003](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/48c92e56-053d-4694-b664-bac140fdb023)
@@ -37,3 +38,7 @@
 ![객체인식 ppt의 사본_page-0035](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/357ffc78-9017-40e9-b4eb-cb2a78cb7a6e)
 ![객체인식 ppt의 사본_page-0036](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/77868772-3758-451e-8886-6aa32281c061)
 ![객체인식 ppt의 사본_page-0037](https://github.com/kimjoosilver/Car-Repair-Cost-Estimator-with-YOLOv8/assets/87303227/985908e0-3710-4eea-8ac1-dc2c9ce89cc5)
+
+## 인퍼런스 노트북
+
+https://colab.research.google.com/drive/1BcB_hOZtMqKpnnedJuNGEYhJL7VBdSQs?usp=sharing
